@@ -1,8 +1,5 @@
 const reverseString = function(input) {
-    var splitString = input.split("");
-    var reverseArray = splitString.reverse();
-    var joinArray = reverseArray.join("");
-    return joinArray;
+    return input.split("").reverse().join("");
 };
 
 // Do not edit below this line
